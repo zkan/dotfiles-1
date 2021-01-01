@@ -2,6 +2,22 @@
 
 This repository is a well-maintained collection of awesome configuration files.
 
+## Usage
+
+Run this command:
+
+```
+./install.sh
+```
+
+This will copy all configuration files in this repository to your home directory.
+
+## Software
+
+
+| Name | Version |
+| ------ | --------- |
+| Bash | 5.0.3   |
 
 ## License
 
