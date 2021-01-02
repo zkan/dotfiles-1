@@ -14,10 +14,10 @@ This will copy all configuration files in this repository to your home directory
 
 ## Software
 
-
 | Name | Version  |
 | ------ | :--------- |
 | Bash | 5.0.3    |
+| Git  | 2.20.1   |
 | Vim  | 8.1.1401 |
 
 ## License

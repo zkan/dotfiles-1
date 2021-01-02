@@ -1,0 +1,21 @@
+[user]
+	name = Dien Nguyen
+	email = dien@dienhn.com
+
+
+[alias]
+	b = branch
+	ba = branch -a
+	co = checkout
+
+	a = add
+	c = commit
+	cm = commit -m
+	d = diff
+	dh = diff HEAD^ HEAD
+	p = push
+
+	s = status
+	l = log
+
+	count = rev-list --count
