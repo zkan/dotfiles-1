@@ -11,6 +11,9 @@ cp 'sh/profile' "${HOME}/.profile"
 cp 'git/gitconfig' "${HOME}/.gitconfig"
 cp 'git/gitignore' "${HOME}/.gitignore"
 
+# Readline
+cp 'readline/inputrc' "${HOME}/.inputrc"
+
 # Vim
 cp 'vim/vimrc' "${HOME}/.vimrc"
 

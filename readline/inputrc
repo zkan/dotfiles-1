@@ -1,0 +1,5 @@
+# Set vi-style as editing mode.
+set editing-mode vi
+
+# Don't show editing mode in prompt.
+set show-mode-in-prompt off
