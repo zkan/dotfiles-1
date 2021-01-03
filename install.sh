@@ -14,6 +14,9 @@ cp 'git/gitignore' "${HOME}/.gitignore"
 # Readline
 cp 'readline/inputrc' "${HOME}/.inputrc"
 
+# tmux
+cp 'tmux/tmux.conf' "${HOME}/.tmux.conf"
+
 # Vim
 cp 'vim/vimrc' "${HOME}/.vimrc"
 

@@ -16,11 +16,12 @@ This will copy all configuration files in this repository to your home directory
 
 
 | Name     | Version  | Comment               |
-| :--------- | :--------- | ----------------------- |
+| :--------- | :--------- | :---------------------- |
 | Bash     | 5.0.3    |                       |
 | Dash     | 0.5.10.2 | POSIX-compliant shell |
 | Git      | 2.20.1   |                       |
 | Readline | 7.0      |                       |
+| tmux     | 2.8      |                       |
 | Vim      | 8.1.1401 |                       |
 
 ## License
