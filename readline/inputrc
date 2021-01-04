@@ -1,5 +1,30 @@
+#
+# EDITING MODE
+#
+
+
 # Set vi-style as editing mode.
 set editing-mode vi
 
 # Don't show editing mode in prompt.
 set show-mode-in-prompt off
+
+
+
+
+#
+# COMPLETION STYLE
+#
+
+
+# Set case-insensitive completion.
+set completion-ignore-case on
+
+# Treat hyphens and underscores as equivalent.
+set completion-map-case on
+
+
+# Show all possible completions.
+$if coqtop
+  set show-all-if-ambiguous on
+$endif
