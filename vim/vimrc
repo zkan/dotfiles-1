@@ -1,3 +1,10 @@
+" Remap comma as the leader key.
+let mapleader=','
+
+" Set duration for time-out.
+set timeoutlen=50
+
+
 " Switch syntax highlighting on.
 syntax on
 
