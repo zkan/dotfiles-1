@@ -5,6 +5,10 @@ let mapleader=','
 set timeoutlen=50
 
 
+" Disable mouse support.
+set mouse=
+
+
 " Switch syntax highlighting on.
 syntax on
 
