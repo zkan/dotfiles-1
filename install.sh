@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Bash
-cp 'bash/basrc' "${HOME}/.bashrc"
+cp 'bash/bashrc' "${HOME}/.bashrc"
 cp 'bash/bash_logout' "${HOME}/.bash_logout"
 
 # Dash
