@@ -26,5 +26,5 @@ set completion-map-case on
 
 # Show all possible completions.
 $if coqtop
-  set show-all-if-ambiguous on
+    set show-all-if-ambiguous on
 $endif
