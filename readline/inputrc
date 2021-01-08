@@ -28,3 +28,15 @@ set completion-map-case on
 $if coqtop
     set show-all-if-ambiguous on
 $endif
+
+
+
+
+#
+# MISCELLANEOUS
+#
+
+
+# # Show control character in output.
+# (Default: On)
+# set echo-control-characters on
