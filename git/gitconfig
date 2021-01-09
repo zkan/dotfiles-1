@@ -9,13 +9,18 @@
 	co = checkout
 
 	a = add
+	aa = add --all
 	c = commit
 	cm = commit -m
+	cu = !git commit --date=\"$(date --utc +%Y-%m-%dT%H:%M:%S%z)\"
 	d = diff
 	dh = diff HEAD^ HEAD
 	p = push
 
 	s = status
 	l = log
+	lg = log --graph --decorate --oneline --all
 
 	count = rev-list --count
+
+	rb = rebase -i --root
