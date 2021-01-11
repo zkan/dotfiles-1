@@ -16,6 +16,7 @@ cp 'readline/inputrc' "${HOME}/.inputrc"
 
 # tmux
 cp 'tmux/tmux.conf' "${HOME}/.tmux.conf"
+[ -n "$(pgrep tmux 2> /dev/null)" ] && tmux source "${HOME}/.tmux.conf"
 
 # Vim
 cp 'vim/vimrc' "${HOME}/.vimrc"
