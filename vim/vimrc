@@ -17,3 +17,10 @@ set backspace=indent,eol,start
 
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
+
+
+" Improve usability when making a search.
+set ignorecase smartcase
+
+" Highlight matches when typing a search term.
+set hlsearch incsearch
