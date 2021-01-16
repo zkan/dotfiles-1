@@ -7,7 +7,7 @@ This repository is a well-maintained collection of awesome configuration files.
 Run this command:
 
 ```
-./install.sh
+./install.sh [light/dark]
 ```
 
 This will copy all configuration files in this repository to your home directory.

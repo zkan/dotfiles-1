@@ -1,5 +1,11 @@
 #!/bin/sh
 
+
+# Set background theme.
+THEME=light
+[ -n "$1" ] && THEME="$1"
+
+
 # Bash
 cp 'bash/bashrc' "${HOME}/.bashrc"
 cp 'bash/bash_logout' "${HOME}/.bash_logout"
@@ -20,5 +26,8 @@ cp 'tmux/tmux.conf' "${HOME}/.tmux.conf"
 
 # Vim
 cp 'vim/vimrc' "${HOME}/.vimrc"
+mkdir -p "${HOME}/.vimrc.d"
+cp "vim/themes.d/${THEME}" "${HOME}/.vimrc.d/theme"
+
 
 # vim:ft=sh:ts=8:sw=4:noet
