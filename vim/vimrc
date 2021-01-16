@@ -24,3 +24,9 @@ set ignorecase smartcase
 
 " Highlight matches when typing a search term.
 set hlsearch incsearch
+
+
+" Load theme configuration from external file.
+if filereadable(expand($HOME . "/.vimrc.d/theme"))
+    source $HOME/.vimrc.d/theme
+endif
