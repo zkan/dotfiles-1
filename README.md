@@ -7,10 +7,12 @@ This repository is a well-maintained collection of awesome configuration files.
 Run this command:
 
 ```
-./install.sh [<light>/<dark>]
+./install.sh [<THEME>]
 ```
 
 This will copy all configuration files in this repository to your home directory.
+
+`THEME` is an optional argument, which could be used to choose theme from `light` and `dark`.
 
 ## Software
 
