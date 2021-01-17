@@ -8,6 +8,7 @@ THEME=light
 
 # Bash
 cp 'bash/bashrc' "${HOME}/.bashrc"
+cp 'bash/bash_aliases' "${HOME}/.bash_aliases"
 cp 'bash/bash_logout' "${HOME}/.bash_logout"
 
 # Dash

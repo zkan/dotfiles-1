@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+alias v='$EDITOR'
+alias g='git'
+
+alias mx='chmod +x'
+alias md='mkdir -p'
+alias p='pwd'
+
+
+alias ..2='cd ../..'
+alias ..3='cd ../../..'
+alias ..4.='cd ../../../..'
+alias ..5='cd ../../../../..'
+
+alias l='ls -CF'
+alias ll='ls -l'
+alias la='ls -A'
+alias lah='ls -lah'
+
+
+_f() { find . -name "*${1}*"; }
+alias f='_f'
+
+_cdl() { cd "$1" || exit; ls; }
+alias cdl='_cdl'
+
+_sz() { du -hcs "$@" | tail -n1 | awk '{ print $1 }'; }
+alias sz='_sz'
+
+_mdc() { mkdir -p "$1"; cd "$1" || exit; }
+alias mdc='_mdc'
