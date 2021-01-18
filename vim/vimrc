@@ -26,6 +26,19 @@ set ignorecase smartcase
 set hlsearch incsearch
 
 
+" " Show the ordered sequence of items.
+" set list
+
+" Display extra whitespaces.
+if &listchars ==# 'eol:$'
+  if has('multi_byte') && &encoding ==# 'utf-8'
+    set listchars=tab:▸\ ,trail:·,extends:❯,precedes:❮,nbsp:±
+  else
+    set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+  endif
+endif
+
+
 " Load theme configuration from external file.
 if filereadable(expand($HOME . "/.vimrc.d/theme"))
     source $HOME/.vimrc.d/theme
