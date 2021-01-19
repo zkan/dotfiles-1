@@ -26,6 +26,12 @@ set ignorecase smartcase
 set hlsearch incsearch
 
 
+" Set UTF-8 as the default encoding.
+if &encoding ==# 'latin1' && has('gui_running')
+  set encoding=utf-8
+endif
+
+
 " " Show the ordered sequence of items.
 " set list
 
